@@ -2,7 +2,6 @@
 import random
 import time
 
-
 def nextStep(price, method):
     #gets a two decimal point float to add or subtract
     newAmount = round(random.uniform(0, 2.1), 2)
@@ -39,8 +38,10 @@ def decideDirection(dir):
 
     return dir
 
+
 #initial values
 value = 50
+progression = 0
 directionUp = True
 
 #while value and print statement to keep the 'simulation' going
